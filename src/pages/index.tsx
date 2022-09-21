@@ -27,9 +27,7 @@ export default function Home() {
       setScreen('listaLinks')
     })
 
-  }
-
-  
+  }  
   
   function linkSelecionado(link: Link) {
     setLink(link)
