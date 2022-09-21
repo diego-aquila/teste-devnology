@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Link da aplicação:https://teste-cadastro-orcin.vercel.app/
+
+A aplicação foi criada utilizando as tecnologias NextJS, ReactJS, Typescript e Tailwind CSS.
+Dentro da aplicação foram criados componentes: Layout, Tabela, Botao, Titulo, Form, Icones, Input.
+
+Uma aplicação SPA onde alterno entre as funcionalidades alterando o estado da variavel screen para renderizar os componentes Tabela (onde são exibidos os dados) ou o Form (onde são cadastrados os dados).
+
+Utilizei da criação de métodos para executar as ações CRUD. O banco de dados escolhido foi o Firebase.
+
+Busquei focar na funcionalidade da aplicação e algumas coisas podem ser refatoradas. 
+Foi um desafio muito animador e de um acréscimo de conhecimento muito bom!!!
+
 
 ## Getting Started
 
