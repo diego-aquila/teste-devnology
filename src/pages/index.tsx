@@ -19,7 +19,7 @@ export default function Home() {
   const [tituloForm, setTituloForm] = useState('Lista de Links Favoritos')
   const [screen, setScreen] = useState<'listaLinks' | 'formulario'>('listaLinks')
   
-  // useEffect(getAll, [])
+  useEffect(getAll, [])
   
   function getAll() {
     repo.getAll().then(links => {
